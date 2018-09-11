@@ -1,0 +1,5 @@
+<resources>
+    <color name="cyan">#00FFFF</color>
+    <color name="teal">#008080</color>
+    <string name="app_name">Quiz Master</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    tools:context="edu.duke.compsci290.myquizmaster.ChooseQuizActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/question_viewer_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/User_choose"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/choose_quiz_activity_recycler_view"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

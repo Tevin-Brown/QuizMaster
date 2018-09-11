@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    tools:context="edu.duke.compsci290.myquizmaster.EndActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/congrats"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/score2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/new_quiz"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Home" />
+
+            <Button
+                android:id="@+id/new_user"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="New User" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="125dp"
+            android:textAlignment="center"
+            android:text="Recent Scores"
+            android:textSize="20dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recent_score"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

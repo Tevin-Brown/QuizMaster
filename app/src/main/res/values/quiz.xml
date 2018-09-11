@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Title">Name That Country</string>
+    <string name="Description">Name the country! (Spelling and Capitalization Count)</string>
+     <string-array name="linear_quiz">
+        <item>Canada</item>
+        <item>Costa Rica</item>
+        <item>Brazil</item>
+    </string-array>
+
+    <string-array name="quiz_names">
+        <item>North America (Linear Quiz)</item>
+        <item>South America (Linear Quiz)</item>
+        <item>Africa (Linear Quiz)</item>
+        <item>Are you a Snake (Personality Quiz)</item>
+        <item>What are you (Personality Quiz)</item>
+        <item>Hogwarts (Personality Quiz)</item>
+    </string-array>
+
+    <string-array name="north_america">
+        <item>Canada</item>
+        <item>Costa Rica</item>
+        <item>Belize</item>
+    </string-array>
+
+    <string-array name="south_america">
+        <item>Brazil</item>
+        <item>Peru</item>
+        <item>Uruguay</item>
+    </string-array>
+
+    <string-array name="africa">
+        <item>Rwanda</item>
+        <item>South Africa</item>
+        <item>Mozambique</item>
+    </string-array>
+
+
+    <string name="are_you_a_snake">
+{
+\"title\":\"Are you a snake, salty or a hopeless romantic?\",
+\"questions\" :
+ [
+     {
+      \"pquestion\":\"What do you think of Beyonce?\",
+      \"options\": [\"She is a goddess\",\"Her and Jay-Z are couple goalz\", \"She’s alright\",
+                        \"Adele won\"],
+      \"scores\" : [\"none\",\"romantic\", \"snake\",
+                        \"salty\"]
+
+     },
+     {
+      \"pquestion\":\"What do you think of Duke\",
+      \"options\": [\"I’d prefer Harvard\",\"UNC is alright too\", \"Perfect spot for a wedding\",
+                        \"I go to school here\"],
+      \"scores\" : [\"salty\",\"snake\", \"romantic\",
+                        \"none\"]
+
+     },
+     {
+      \"pquestion\":\"Kim or Taytay\",
+      \"options\": [\"Kim\",\"Tay\", \"Neither\",
+                        \"por que no los dos?\"],
+      \"scores\" : [\"salty\",\"snake\", \"none\",
+                        \"romantic\"]
+     }
+]
+}
+    </string>
+    <string name="hogwarts">
+        {
+\"title\":\"What Hogwarts House are you in?\",
+\"questions\" :
+ [
+     {
+      \"pquestion\":\"What are you thoughts on snakes?\",
+      \"options\": [\"Snakes should be culled\",\"I identify as one\", \"They are interesting creatures\",
+                        \"Snakes do not have eyelids \"],
+      \"scores\" : [\"Gryffindor\",\"Slytherin\", \"Hufflepuff\",
+                        \"Ravenclaw\"]
+
+     },
+     {
+      \"pquestion\":\"Someone wants to Avada Kedavra your family. What do you do\",
+      \"options\": [\"Cry\",\"Reflect upon your life\", \"Laugh\",
+                        \"Expelliarmus!!!\"],
+      \"scores\" : [\"Hufflepuff\",\"Ravenclaw\", \"Slytherin\",
+                        \"Gryffindor\"]
+
+     },
+     {
+      \"pquestion\":\"Preferred Pet?\",
+      \"options\": [\"Owl\",\"Snake\", \"Potato\",
+                        \"Phoenix\"],
+      \"scores\" : [\"Ravenclaw\",\"Slytherin\", \"Hufflepuff\",
+                        \"Gryffindor\"]
+     }
+]
+}
+    </string>
+    <string name="what_are_you">
+        {
+\"title\":\"Are you an urbanite, suburbanite or cowboy?\",
+\"questions\" :
+ [
+     {
+      \"pquestion\":\"Favorite food?\",
+      \"options\": [\"Homecooked potatoes\",\"Totinos Pizza Rolls\", \"What is food\",
+                        \"Coffee with lowfat milk\"],
+      \"scores\" : [\"cowboy\",\"suburbanite\", \"alien\",
+                        \"urbanite\"]
+
+     },
+     {
+      \"pquestion\":\"Favorite TV show?\",
+      \"options\": [\"I do not have a TV\",\"Modern Family\", \"Anything Indie\",
+                        \"What is a TV!!!\"],
+      \"scores\" : [\"cowboy\",\"suburbanite\", \"urbanite\",
+                        \"alien\"]
+
+     },
+     {
+      \"pquestion\":\"Preferred Pet?\",
+      \"options\": [\"chihuahua\",\"golden retriever\", \"a human\",
+                        \"horse\"],
+      \"scores\" : [\"urbanite\",\"suburbanite\", \"alien\",
+                        \"cowboy\"]
+     }
+]
+}
+    </string>
+
+
+    <string-array name="quizzes">
+        <item>Linear Quiz</item>
+        <item>Personality Quiz</item>
+    </string-array>
+
+</resources>
